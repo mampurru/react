@@ -14,7 +14,9 @@ const Formulario_APP = () => {
    }
 
    return (
-     <div>
+    
+     <div className="form-container  ">
+        <div>
         <h2>Formulario</h2>
         <form onSubmit={handleSubmit(onSubmit)}>
             <div>
@@ -54,9 +56,10 @@ const Formulario_APP = () => {
                     {/* Otras opciones aquí */}
                 </select>
             </div>
-            <button type="submit">Enviar</button>
+            <button style={{borderBlockColor:'green'}} type="submit">Enviar</button>
         </form>
     </div>
+     </div>
    );
 }
 

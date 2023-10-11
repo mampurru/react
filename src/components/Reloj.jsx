@@ -26,7 +26,7 @@ function Reloj() {
   };
 
   return (
-    <div>
+    <div className='reloj-container'>
       <h1>Reloj Digital</h1>
       <p>{formatoHora(hora)}</p>
     </div>
